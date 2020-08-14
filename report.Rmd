@@ -136,7 +136,7 @@ Trotzdem ist es sehr interessant, dass wir auch mit so wenig Teilnehmern in den 
 ```{r}
 plot.studyfields(c(17:28), "dodge", "Häufigkeit (Anzahl)")
 ```
-Zu beachten: Mathe, informatik und Naturwissenschaften viele - andere eher weniger TN
+- Zu beachten: Mathe, informatik und Naturwissenschaften viele - andere eher weniger TN
 
 ## Charakterisierung der Studienteilnehmer
 ```{r, fig.align='center', out.width="75%"}
@@ -156,11 +156,8 @@ Die meisten Teilnehmer sind entweder im Bachelor oder im Master. Hinzu kommen ei
 ```{r, fig.align='center', out.width="75%"}
 knitr::include_graphics('Images/Picture5.png')
 ```
--Social-Media Nutzer: 23 ( approx. 27%)
--idR. werden meistens mehrere Services gleichzeitig genutzt
--Instagram wird am meisten genutzt
 
-23 Teilnehmer nutzen regelmäßig Social-Media-Kanäle zum prokrastinieren. Dies macht einen Anteil von ungefähr 27% aus. In der Regel werden meistens mehrere Services gleichzeitig genutzt. Hier ist Instagram mit Abstand am meisten vertreten. 
+23 Teilnehmer nutzen regelmäßig Social-Media-Kanäle zum prokrastinieren. Dies macht einen Anteil von ungefähr 27% aus. In der Regel werden meistens mehrere Services gleichzeitig genutzt. Hier ist Instagram mit Abstand am meisten vertreten. Außerdem werden noch Facebook, Twitter, TikTok, Snapchat und sonstige verwendet.
 
 
 ## Streaming-Dienste
@@ -175,12 +172,9 @@ Bei den Streamingdiensten konnten wir, ähnlich wie bei den Social-Media-Kanäle
 ```{r}
 plot.zufried.vs.zeit()
 ```
- 
 
-Wie viel man prokrastiniert scheint keinen Effekt auf die Zufriedenheit mit den Prüfungsergebnissen zu haben
--Meistens sind die Leute zufrieden bzw. Bewerten sich als ausreichend
--Aber bei ausreichend haben Leute generell mehr prokrastiniert als bei zufriedenstellend
-
+Bei der Frage, wie zufrieden die Teilnehmer mit ihren Prüfungsergebnissen sind, scheint es keinen Effekt zu haben, wie viel in der Zeit prokrastiniert wurde. Die meisten Teilnehmer waren mit ihrer Prüfungsphase zufrieden oder wenigsten empfanden sie ihre Ergebnisse ausreichend. Hier konnten wir erkennen, dass es bei den ausreichend zufriedenen Teilnehmern mehr prokrastiniert wurde, als bei den Zufriedenen. 
+Wir vermuten, dass hier keine Korrelation sichtbar ist, weil Studierende, die viel prokrastinieren und dann gute oder ausreichende Ergebnisse erzielen trotzdem zufrieden sind, weil sie wissen, dass sie viel prokrastiniert haben und wenig gelernt haben und Andere, die wenig prokrastiniert haben und trotzdem keine sehr guten Ergebnisse haben, dann weniger zufrieden sind. Sollten sie jedoch sehr gute Ergebnisse erhalten sind sie ebenfalls zufrieden.
 
 
 ## Verändert sich die Prokrastination zwischen Bachelor und Master? 
@@ -188,16 +182,14 @@ Wie viel man prokrastiniert scheint keinen Effekt auf die Zufriedenheit mit den 
 plot.abschluss.prokrastination(c(4:15), "fill", "Häufigkeit (Prozent)")
 ```
 
--Unterscheidet sich kaum
--Auch bei der Frage ob sich das Prokrastinationsverhalten dieser Prüfungsphase zu letzter verändert hat wurde zu ⅔ “nein” angegeben
+Nach unseren Ergebnissen unterscheidet sich das Prokrastinationsverhalten zwischen Bachelor und Master kaum. Hier konnten wir erstaunlich ähnliche Verteilungen unter den verschiedenen angestrebten Abschlüssen feststellen. Selbst bei den Staatsexamen, die eigentlich sehr unterrepräsentiert sind in unserem Teilnehmerfeld, zeichnet sich sehr deutlich das gleiche Muster ab.
+Zwei Drittel der Teilnehmer gaben außerdem an, dass sich das Prokrastinationsverhalten im gegensatz zur vorherigen Prüfungsphase nicht verändert hat.
 
 ```{r}
 plot.abschluss.prokrastination(c(4:15), "dodge", "Häufigkeit (Anzahl)")
 ```
 
-Bachelor/Master haben genug  Teilnehmer um die Angaben vergleichbar zu machen - Staatsexamen eig zu wenig
-
-
+Bei den Bachelor und Masterstudierenden haben wir genug Teilnehmer um die Angaben vergleichbar zu machen. Bei den Staatsexamen leider eigentlich zu wenige. Trotzdem ist die Verteilung sehr interessant und ähnlich in allen drei Bereichen.
 
 
 ## Qualitative Analyse
