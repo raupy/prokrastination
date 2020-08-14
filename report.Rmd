@@ -133,7 +133,6 @@ Trotzdem ist es sehr interessant, dass wir auch mit so wenig Teilnehmern in den 
 ```{r}
 plot.studyfields(c(17:28), "dodge", "Häufigkeit (Anzahl)")
 ```
-- Zu beachten: Mathe, informatik und Naturwissenschaften viele - andere eher weniger TN
 
 ## Charakterisierung der Studienteilnehmer
 ```{r, fig.align='center', out.width="75%"}
