@@ -110,6 +110,9 @@ Nach dieser Frage kam der zweite Teil unseres Surveys, welcher sich mit der eing
 - Description of the approach for the data validation and analysis, short explanation of important scripts you used.
 - Description of the considerations and the results of your search for scientific statements and correlations; possibly with quantitative results and/or graphic visualizations.
 
+Wir konnten mit unserer Umfrage 81 Teilnehmer erreichen. Hierbei handelte es sich zum größten Teil um Studierende. Diese teilen sich in die Studienbereiche Mathematik, Informatik und Naturwissenschaften (MINT), Medizin, Geistes- und Kulturwissenschaften, Lehramt, Jura/Wirtschaftswissenschaften, Sozialwissenschaften, Musik/Kunst und Ingenieurswissenschaften auf. In der Auswertung konnten wir feststellen, dass sich über alle Bereiche eine sehr ähnliche Verteilung der Prokrastinationsarten zeigte. Wir haben uns hier jeweils die Top 3 Prokrastinationsarten der jeweiligen Teilnehmer angeschaut, um eine Verzerrung zu verhindern, wenn Teilnehmer auf sehr verschiedene Arten prokrastinieren und somit Angaben machen, die in ihrer Relevanz sehr gering sind, die Häufigkeit der Prokrastination aber nicht abgefragt wird. 
+
+
 Test für schicke Tabelle:
 ```{r}
 data = make.studyfields.data(c(17:28))
@@ -121,12 +124,14 @@ create_dt(data, rownames, colnames, "Tabelle 1:", "Liebste Prokrastinationstäti
 
 ## So lenken sich die versch. Fachbereiche vom Lernen ab
 
+Unter den Top 3 wurde in allen Studienbereichen viel mit Videos und dem Smartphone prokrastiniert. Sehr wenig wurde hingegen mit Shopping prokrastiniert. Verlässliche Unterschiede konnten wir zwischen den einzelnen Studienfächern hier nicht feststellen. Dies liegt zum einen daran, dass die Verteilung auf die Prokrastinationsarten sich sehr ähneln, wie auch in der Abbildung sichtbar und zum anderen daran, dass wir leider nur für die MINT-Fächer ausreichend viele Teilnehmer hatten um eine wirkliche Aussage treffen zu können und Zufälle ausschließen zu können. 
+
 ```{r}
 plot.studyfields(c(17:28), "fill", "Häufigkeit (Prozent)")
 ```
 Übersicht wie sich versch. Fachbereiche ablenken (TOP 3)
-Videos, Smartphone und Essen generell oft vertreten
-Eher wenig Shopping
+
+Trotzdem ist es sehr interessant, dass wir auch mit so wenig Teilnehmern in den anderen Bereichen eine sehr ähnliche Tendenz erkennen konnten. Hier können wir also im Rahmen dieser Studie vorsichtig davon ausgehen, dass sich die Prokrastinationsart zwischen den verschiedenen Studienbereichen nicht sonderlich unterscheidet. Jedoch nutzen die meisten Teilnehmer viele verschiedene Prokrastinationsarten.
 
 ```{r}
 plot.studyfields(c(17:28), "dodge", "Häufigkeit (Anzahl)")
@@ -144,6 +149,8 @@ knitr::include_graphics('Images/Picture6.png')
 -Alter der Teilnehmer so bei ca ?
 -Durch geringe Anzahl der Teilnehmer nur Aussagen über 2 Fachbereiche möglich
 
+Unsere 81 Teilnehmer sind zu 43% MINT-Studierende. Aus den anderen Bereichen kommen jeweils ca. 10% der Befragten. Dies lag vor allem daran, dass wenige Unikanäle unsere Studie verbreiten wollten und ein Großteil der Teilnehmer vermutlich aus dem Discord-Aufruf entstanden, sowie aus der persönlichen Verteilung über die eigenen Kanäle.
+Die meisten Teilnehmer sind entweder im Bachelor oder im Master. Hinzu kommen einige wenige Diplom-, Promotions-, sowie Staatsexamenstudierende.
 
 ## Social-Media-Services
 ```{r, fig.align='center', out.width="75%"}
@@ -153,13 +160,15 @@ knitr::include_graphics('Images/Picture5.png')
 -idR. werden meistens mehrere Services gleichzeitig genutzt
 -Instagram wird am meisten genutzt
 
+23 Teilnehmer nutzen regelmäßig Social-Media-Kanäle zum prokrastinieren. Dies macht einen Anteil von ungefähr 27% aus. In der Regel werden meistens mehrere Services gleichzeitig genutzt. Hier ist Instagram mit Abstand am meisten vertreten. 
+
 
 ## Streaming-Dienste
 ```{r, fig.align='center', out.width="75%"}
 knitr::include_graphics('Images/Picture4.png')
 ```
--Youtube und Netflix werden sehr häufig genutzt, auch zusammen
--Ansonsten bunter Mix
+
+Bei den Streamingdiensten konnten wir, ähnlich wie bei den Social-Media-Kanälen, feststellen, dass viele verschiedene Dienste genutzt werden. Die meisten Teilnehmer benutzen Netflix oder Youtube, häufig sogar beide. Teilnehmer die einen Streamingdienst nutzen, nutzen oft auch mindestens einen weiteren. Ansonsten gibt es ein großes Spektrum an verschiedenen Diensten die öfter genutzt werden. Dazu zählen Amazon Prime Video, Disney+, die Mediatheken der Fernsehsender, sowie Fernsehen selbst.
 
 ## Leistungszufriedenheit vs. Prokrastinationszeit
 
